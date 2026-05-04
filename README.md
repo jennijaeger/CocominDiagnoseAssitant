@@ -25,3 +25,10 @@ Dabei wird kein klassischer Fragebogen verwendet, sondern ein geführter Dialog,
 ```bash
 pip install -r requirements.txt
 streamlit run cocomin_diagnose_assistant_mvp.py
+```
+
+
+## Hinweis
+Für die Nutzung der KI-Funktionalität wird ein OpenAI API-Key benötigt:
+```export OPENAI_API_KEY="your_api_key"
+```
